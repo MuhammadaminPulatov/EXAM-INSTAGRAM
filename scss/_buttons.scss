@@ -1,0 +1,25 @@
+.btn {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  font-family: $font-heading;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -2%;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: $color-white;
+  background-color: $color-black;
+}
+
+.btn--icon {
+  width: 22px;
+  height: auto;
+}

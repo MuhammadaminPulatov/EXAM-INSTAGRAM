@@ -1,0 +1,43 @@
+.hero {
+  @include bg-gradient();
+}
+
+.hero__wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+
+}
+
+.hero__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 840px;
+}
+
+.hero__title {
+  font-family: $font-heading;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -4%;
+  text-align: center;
+  color: $color-black;
+}
+
+.hero__subtitle {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: $color-grey;
+}
+
+
+
